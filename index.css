@@ -1,0 +1,49 @@
+body{
+    margin: 50px;
+    background-color: #F9FAFA;
+}
+
+.search-select{
+    width: 300px;
+}
+
+.search-select button, .search-select ul, .search-select input{
+    width: 100%;
+}
+
+.search-select ul{
+    padding: 0;
+}
+
+.search-select button{
+    text-align: left;
+}
+
+.search-select button i{
+    float: right;
+}
+
+.search-select .dropdown-menu{
+    width: 300px;
+    border: solid 2px #2490EF;
+}
+
+.search-select button{
+    color: rgb(238, 238, 238);
+    background-color: #2490EF;
+    border: none;    
+    border-radius: 5px;
+    padding: 6px 10px;
+}
+
+.search-select input{
+    padding: 6px 10px;
+    border: none;
+    border-bottom: solid 2px #2490EF;
+}
+
+.search-select input:focus{
+    border: none;
+    border-bottom: solid 2px #2490EF;
+    outline: none;
+}
